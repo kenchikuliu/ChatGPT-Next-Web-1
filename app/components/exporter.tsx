@@ -461,6 +461,7 @@ export function ImagePreviewer(props: {
         <div className={styles["chat-info"]}>
           <div className={styles["logo"] + " no-dark"}>
             <NextImage
+              src={ChatGptIcon.src}
               alt="logo"
               width={50}
               height={50}
